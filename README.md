@@ -115,7 +115,7 @@ let validInputs = zip(
 // Validated<(Int, String, String), String>
 ```
 
-The `zip` function on `Validated` works much the same way it works on sequences, but rather than zipping a pair of sequences into a sequence pairs, it zips up a group of single `Validated` values into single `Validated` value of a group.
+The `zip` function on `Validated` works much the same way it works on sequences, but rather than zipping a pair of sequences into a sequence of pairs, it zips up a group of single `Validated` values into single `Validated` value of a group.
 
 From here, we can use another function that we may already be familiar with, `map`, which takes a transform function and produces a new `Validated` value with its valid case transformed.
 
@@ -124,7 +124,9 @@ let validUser = validInputs.map(User.init)
 // valid(User(id: 1, email: "blob@pointfree.co", name: "Blob"))
 ```
 
-For ergonomics, a `zip(with:)` function is provided that takes both a transform and `Validated` inputs at once.
+Out group of valid inputs has transformed into a valid user.
+
+For ergonomics and composition, a curried `zip(with:)` function is provided that takes both a transform function and `Validated` inputs.
 
 ``` swift
 zip(with: User.init)(
@@ -135,9 +137,7 @@ zip(with: User.init)(
 // valid(User(id: 1, email: "blob@pointfree.co", name: "Blob"))
 ```
 
-Valid inputs yield a user wrapped in the `valid` case.
-
-Meanwhile, an invalid input yields an error in the `invalid` case.
+An invalid input yields an error in the `invalid` case.
 
 ``` swift
 zip(with: User.init)(

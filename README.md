@@ -153,7 +153,7 @@ More importantly, multiple invalid inputs yield an `invalid` case with multiple 
 ``` swift
 zip(with: User.init)(
   validate(id: -1),
-  validate(email: "blob@pointfree.co"),
+  validate(email: "blobpointfree.co"),
   validate(name: "")
 )
 // invalid([

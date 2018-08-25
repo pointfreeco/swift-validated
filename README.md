@@ -29,21 +29,21 @@ struct User {
   let name: String
 }
 
-func validate(id: Int) -> Int throws {
+func validate(id: Int) throws -> Int {
   guard id > 0 else {
     throw Invalid.error("id must be greater than zero")
   }
   return id
 }
 
-func validate(email: String) -> String throws {
+func validate(email: String) throws -> String {
   guard email.contains("@") else {
     throw Invalid.error("email must be valid")
   }
   return email
 }
 
-func validate(name: String) -> String throws {
+func validate(name: String) throws -> String {
   guard !name.isEmpty else {
     throw Invalid.error("name can't be blank")
   }

@@ -1,8 +1,6 @@
-version = "0.1.0"
-
 Pod::Spec.new do |s|
   s.name = "PointFree-Validated"
-  s.version = version
+  s.version = "0.1.1"
   s.summary = "A result type that accumulates multiple errors."
 
   s.description = <<-DESC
@@ -23,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.source = {
     :git => "https://github.com/pointfreeco/swift-validated.git",
-    :tag => version
+    :tag => s.version
   }
 
   s.ios.deployment_target = "8.0"

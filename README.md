@@ -189,7 +189,7 @@ If you want to use Validated in a project that uses [SwiftPM](https://swift.org/
 
 ``` swift
 dependencies: [
-  .package(url: "https://github.com/pointfreeco/swift-validated.git", from: "0.1.0")
+  .package(url: "https://github.com/pointfreeco/swift-validated.git", from: "0.1.1")
 ]
 ```
 

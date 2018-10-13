@@ -9,7 +9,7 @@ let package = Package(
       targets: ["Validated"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/pointfreeco/swift-nonempty.git", from: "0.1.0"),
+    .package(url: "https://github.com/pointfreeco/swift-nonempty.git", from: "0.1.1"),
   ],
   targets: [
     .target(

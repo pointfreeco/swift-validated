@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "PointFree-Validated"
-  s.module_name "Validated"
+  s.module_name = "Validated"
   s.version = "0.1.2"
   s.summary = "A result type that accumulates multiple errors."
 

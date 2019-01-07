@@ -18,7 +18,7 @@ jobs:
 
       - run:
           name: Check out dependencies
-          command: swift package update
+          command: git submodule update --init --recursive
 
       - run:
           name: Run iOS tests

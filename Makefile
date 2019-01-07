@@ -4,7 +4,7 @@ imports = \
 bootstrap: carthage xcodeproj
 
 carthage:
-	carthage update --use-submodules
+	carthage update --no-build --use-submodules
 
 xcodeproj:
 	xcodegen

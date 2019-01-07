@@ -1,8 +1,13 @@
 imports = \
 	@testable import ValidatedTests;
 
+bootstrap: carthage xcodeproj
+
+carthage:
+	carthage update --no-build --use-submodules
+
 xcodeproj:
-	swift package generate-xcodeproj --xcconfig-overrides=Validated.xcconfig
+	xcodegen
 
 linux-main:
 	sourcery \
@@ -19,15 +24,17 @@ test-linux: linux-main
 test-macos:
 	set -o pipefail && \
 	xcodebuild test \
-		-scheme Validated-Package \
-		-destination platform="macOS" \
+		-destination platform=macOS \
+		-scheme Validated_macOS \
+		-workspace Validated.xcworkspace \
 		| xcpretty
 
 test-ios:
 	set -o pipefail && \
 	xcodebuild test \
-		-scheme Validated-Package \
-		-destination platform="iOS Simulator,name=iPhone 8,OS=11.4" \
+		-destination platform="iOS Simulator,name=iPhone XR,OS=12.1" \
+		-scheme Validated_iOS \
+		-workspace Validated.xcworkspace \
 		| xcpretty
 
 test-swift:

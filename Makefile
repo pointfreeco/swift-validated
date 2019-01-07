@@ -24,15 +24,15 @@ test-linux: linux-main
 test-macos:
 	set -o pipefail && \
 	xcodebuild test \
-		-scheme Validated-Package \
+		-scheme Validated_macOS \
 		-destination platform="macOS" \
 		| xcpretty
 
 test-ios:
 	set -o pipefail && \
 	xcodebuild test \
-		-scheme Validated-Package \
-		-destination platform="iOS Simulator,name=iPhone 8,OS=11.4" \
+		-scheme Validated_iOS \
+		-destination platform="iOS Simulator,name=iPhone XR,OS=12.1" \
 		| xcpretty
 
 test-swift:

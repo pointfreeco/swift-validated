@@ -1,8 +1,13 @@
 imports = \
 	@testable import ValidatedTests;
 
+bootstrap: carthage xcodeproj
+
+carthage:
+	carthage update --use-submodules
+
 xcodeproj:
-	swift package generate-xcodeproj --xcconfig-overrides=Validated.xcconfig
+	xcodegen
 
 linux-main:
 	sourcery \

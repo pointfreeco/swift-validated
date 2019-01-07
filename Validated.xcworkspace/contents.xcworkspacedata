@@ -13,4 +13,7 @@
    <FileRef
       location = "group:Validated.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/swift-nonempty/NonEmpty.xcodeproj">
+   </FileRef>
 </Workspace>

@@ -1,6 +1,6 @@
 # 🛂 Validated
 
-[![Swift 4.1](https://img.shields.io/badge/swift-4.1-ED523F.svg?style=flat)](https://swift.org/download/)
+[![Swift 4.2](https://img.shields.io/badge/swift-4.1-ED523F.svg?style=flat)](https://swift.org/download/)
 [![iOS/macOS CI](https://img.shields.io/circleci/project/github/pointfreeco/swift-validated/master.svg?label=ios/macos)](https://circleci.com/gh/pointfreeco/swift-validated)
 [![Linux CI](https://img.shields.io/travis/pointfreeco/swift-validated/master.svg?label=linux)](https://travis-ci.org/pointfreeco/swift-validated)
 [![@pointfreeco](https://img.shields.io/badge/contact-@pointfreeco-5AA9E7.svg?style=flat)](https://twitter.com/pointfreeco)
@@ -172,7 +172,7 @@ Invalid errors are held in a [non-empty array](https://github.com/pointfreeco/sw
 If you use [Carthage](https://github.com/Carthage/Carthage), you can add the following dependency to your `Cartfile`:
 
 ``` ruby
-github "pointfreeco/swift-validated" ~> 0.1
+github "pointfreeco/swift-validated" ~> 0.1.2
 ```
 
 ### CocoaPods
@@ -180,7 +180,7 @@ github "pointfreeco/swift-validated" ~> 0.1
 If your project uses [CocoaPods](https://cocoapods.org), just add the following to your `Podfile`:
 
 ``` ruby
-pod 'PointFree-Validated', '~> 0.1'
+pod 'PointFree-Validated', '~> 0.1.2'
 ```
 
 ### SwiftPM
@@ -189,7 +189,7 @@ If you want to use Validated in a project that uses [SwiftPM](https://swift.org/
 
 ``` swift
 dependencies: [
-  .package(url: "https://github.com/pointfreeco/swift-validated.git", from: "0.1.1")
+  .package(url: "https://github.com/pointfreeco/swift-validated.git", from: "0.1.2")
 ]
 ```
 

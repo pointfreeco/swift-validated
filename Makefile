@@ -32,7 +32,7 @@ test-macos:
 test-ios:
 	set -o pipefail && \
 	xcodebuild test \
-		-destination platform="iOS Simulator,name=iPhone XR,OS=12.1" \
+		-destination platform="iOS Simulator,name=iPhone XR,OS=12.2" \
 		-scheme Validated_iOS \
 		-workspace Validated.xcworkspace \
 		| xcpretty

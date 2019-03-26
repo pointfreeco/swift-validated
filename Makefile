@@ -7,7 +7,7 @@ carthage:
 	carthage update --no-build --use-submodules
 
 xcodeproj:
-	xcodegen
+	PF_DEVELOP=1 swift run xcodegen
 
 linux-main:
 	sourcery \
@@ -32,7 +32,7 @@ test-macos:
 test-ios:
 	set -o pipefail && \
 	xcodebuild test \
-		-destination platform="iOS Simulator,name=iPhone XR,OS=12.1" \
+		-destination platform="iOS Simulator,name=iPhone XR,OS=12.2" \
 		-scheme Validated_iOS \
 		-workspace Validated.xcworkspace \
 		| xcpretty

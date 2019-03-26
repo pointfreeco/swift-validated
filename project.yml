@@ -18,11 +18,11 @@ targets:
       path: Info.plist
     platform: [macOS, iOS, tvOS, watchOS]
     scheme:
-      testTargets: [ValidatedTests_$platform]
+      testTargets: ['ValidatedTests_${platform}']
     sources: [Sources]
     type: framework
   ValidatedTests:
-    dependencies: [{target: Validated_$platform}]
+    dependencies: [{target: 'Validated_${platform}'}]
     platform: [macOS, iOS, tvOS, watchOS]
     sources:
       - path: Tests

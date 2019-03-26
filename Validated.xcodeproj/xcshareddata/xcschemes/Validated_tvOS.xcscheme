@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NT_63A10102A53AFC969FC9D2C167C6FBF3"
+               BlueprintIdentifier = "D7A3F852E2A2D9490DA2A630A2E58C27"
                BuildableName = "Validated.framework"
                BlueprintName = "Validated_tvOS"
                ReferencedContainer = "container:Validated.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NT_DD0357B6683A50357907B8E4ACAEC25A"
+               BlueprintIdentifier = "20C5087CDD9C2054702327D5E6CFA655"
                BuildableName = "ValidatedTests.xctest"
                BlueprintName = "ValidatedTests_tvOS"
                ReferencedContainer = "container:Validated.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_63A10102A53AFC969FC9D2C167C6FBF3"
+            BlueprintIdentifier = "D7A3F852E2A2D9490DA2A630A2E58C27"
             BuildableName = "Validated.framework"
             BlueprintName = "Validated_tvOS"
             ReferencedContainer = "container:Validated.xcodeproj">
@@ -66,7 +66,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_63A10102A53AFC969FC9D2C167C6FBF3"
+            BlueprintIdentifier = "D7A3F852E2A2D9490DA2A630A2E58C27"
             BuildableName = "Validated.framework"
             BlueprintName = "Validated_tvOS"
             ReferencedContainer = "container:Validated.xcodeproj">
@@ -87,7 +87,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_63A10102A53AFC969FC9D2C167C6FBF3"
+            BlueprintIdentifier = "D7A3F852E2A2D9490DA2A630A2E58C27"
             BuildableName = "Validated.framework"
             BlueprintName = "Validated_tvOS"
             ReferencedContainer = "container:Validated.xcodeproj">

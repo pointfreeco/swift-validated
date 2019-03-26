@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NT_000682CC36DF8BCA8CE98DA92C2B371F"
+               BlueprintIdentifier = "2F6ACE5C9BA300856FB8FF6BFDD68AA7"
                BuildableName = "Validated.framework"
                BlueprintName = "Validated_iOS"
                ReferencedContainer = "container:Validated.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NT_629980D612CA09D304B34E5203BF7D61"
+               BlueprintIdentifier = "D220175CA70961ACF4153F3EA11D9164"
                BuildableName = "ValidatedTests.xctest"
                BlueprintName = "ValidatedTests_iOS"
                ReferencedContainer = "container:Validated.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_000682CC36DF8BCA8CE98DA92C2B371F"
+            BlueprintIdentifier = "2F6ACE5C9BA300856FB8FF6BFDD68AA7"
             BuildableName = "Validated.framework"
             BlueprintName = "Validated_iOS"
             ReferencedContainer = "container:Validated.xcodeproj">
@@ -66,7 +66,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_000682CC36DF8BCA8CE98DA92C2B371F"
+            BlueprintIdentifier = "2F6ACE5C9BA300856FB8FF6BFDD68AA7"
             BuildableName = "Validated.framework"
             BlueprintName = "Validated_iOS"
             ReferencedContainer = "container:Validated.xcodeproj">
@@ -87,7 +87,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_000682CC36DF8BCA8CE98DA92C2B371F"
+            BlueprintIdentifier = "2F6ACE5C9BA300856FB8FF6BFDD68AA7"
             BuildableName = "Validated.framework"
             BlueprintName = "Validated_iOS"
             ReferencedContainer = "container:Validated.xcodeproj">

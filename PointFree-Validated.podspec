@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = "PointFree-Validated"
   s.module_name = "Validated"
-  s.version = "0.2.0"
+  s.version = "0.2.1"
   s.summary = "A result type that accumulates multiple errors."
 
   s.description = <<-DESC
@@ -32,5 +32,5 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Sources", "Sources/**/*.swift"
 
-  s.dependency "NonEmpty", "~> 0.2.0"
+  s.dependency "NonEmpty", "~> 0.2.1"
 end

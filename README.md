@@ -171,7 +171,7 @@ Invalid errors are held in a [non-empty array](https://github.com/pointfreeco/sw
 If you use [Carthage](https://github.com/Carthage/Carthage), you can add the following dependency to your `Cartfile`:
 
 ``` ruby
-github "pointfreeco/swift-validated" ~> 0.2
+github "pointfreeco/swift-validated" ~> 0.2.1
 ```
 
 ### CocoaPods
@@ -179,7 +179,7 @@ github "pointfreeco/swift-validated" ~> 0.2
 If your project uses [CocoaPods](https://cocoapods.org), just add the following to your `Podfile`:
 
 ``` ruby
-pod 'PointFree-Validated', '~> 0.2'
+pod 'PointFree-Validated', '~> 0.2.1'
 ```
 
 ### SwiftPM
@@ -188,7 +188,7 @@ If you want to use Validated in a project that uses [SwiftPM](https://swift.org/
 
 ``` swift
 dependencies: [
-  .package(url: "https://github.com/pointfreeco/swift-validated.git", from: "0.2.0")
+  .package(url: "https://github.com/pointfreeco/swift-validated.git", from: "0.2.1")
 ]
 ```
 

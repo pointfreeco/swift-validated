@@ -1,7 +1,7 @@
 # 🛂 Validated
 
 [![Swift 5.1](https://img.shields.io/badge/swift-5.1-ED523F.svg?style=flat)](https://swift.org/download/)
-[![CI](https://github.com/pointfreeco/pointfreeco/workflows/CI/badge.svg)](https://actions-badge.atrox.dev/pointfreeco/swift-validated/goto)
+[![CI](https://github.com/pointfreeco/swift-validated/workflows/CI/badge.svg)](https://actions-badge.atrox.dev/pointfreeco/swift-validated/goto)
 [![@pointfreeco](https://img.shields.io/badge/contact-@pointfreeco-5AA9E7.svg?style=flat)](https://twitter.com/pointfreeco)
 
 A result type that accumulates multiple errors.

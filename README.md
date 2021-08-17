@@ -166,35 +166,17 @@ Invalid errors are held in a [non-empty array](https://github.com/pointfreeco/sw
 
 ## Installation
 
-### Carthage
+You can add Validated to an Xcode project by adding it as a package dependency.
 
-If you use [Carthage](https://github.com/Carthage/Carthage), you can add the following dependency to your `Cartfile`:
+> https://github.com/pointfreeco/swift-validated
 
-``` ruby
-github "pointfreeco/swift-validated" ~> 0.2.1
-```
-
-### CocoaPods
-
-If your project uses [CocoaPods](https://cocoapods.org), just add the following to your `Podfile`:
-
-``` ruby
-pod 'PointFree-Validated', '~> 0.2.1'
-```
-
-### SwiftPM
-
-If you want to use Validated in a project that uses [SwiftPM](https://swift.org/package-manager/), it's as simple as adding a `dependencies` clause to your `Package.swift`:
+If you want to use Validated in a [SwiftPM](https://swift.org/package-manager/) project, it's as simple as adding it to a `dependencies` clause in your `Package.swift`:
 
 ``` swift
 dependencies: [
-  .package(url: "https://github.com/pointfreeco/swift-validated.git", from: "0.2.1")
+  .package(url: "https://github.com/pointfreeco/swift-validated", from: "0.2.1")
 ]
 ```
-
-### Xcode Sub-project
-
-Submodule, clone, or download Validated, and drag `Validated.xcodeproj` into your project.
 
 ## Interested in learning more?
 

@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "Validated",
+  name: "swift-validated",
   products: [
     .library(
       name: "Validated",

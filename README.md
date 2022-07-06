@@ -185,7 +185,7 @@ These concepts (and more) are explored thoroughly in [Point-Free](https://www.po
 Validated was explored in [The Many Faces of Zip: Part 2](https://www.pointfree.co/episodes/ep24-the-many-faces-of-zip-part-2):
 
 <a href="https://www.pointfree.co/episodes/ep24-the-many-faces-of-zip-part-2">
-  <img alt="video poster image" src="https://d1hf1soyumxcgv.cloudfront.net/0024-zip-pt2/poster.jpg" width="480">
+  <img alt="video poster image" src="https://d3rccdn33rt8ze.cloudfront.net/episodes/0024.jpeg" width="480">
 </a>
 
 ## License

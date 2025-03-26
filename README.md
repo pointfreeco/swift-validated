@@ -3,6 +3,7 @@
 [![CI](https://github.com/pointfreeco/swift-validated/workflows/CI/badge.svg)](https://actions-badge.atrox.dev/pointfreeco/swift-validated/goto)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fpointfreeco%2Fswift-validated%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/pointfreeco/swift-validated)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fpointfreeco%2Fswift-validated%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/pointfreeco/swift-validated)
+[![libs.tech recommends](https://libs.tech/project/145148331/badge.svg)](https://libs.tech/project/145148331/swift-validated)
 
 A result type that accumulates multiple errors.
 
